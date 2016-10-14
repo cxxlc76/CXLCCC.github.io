@@ -101,10 +101,10 @@ header{
 }
 /*学习技能*/
 .learn{
-	width: 490px;
-	height: 192px;
+	width: 600px;
+	height: 300px;
 	margin: 0 auto;
-	margin-top: 60px;
+	margin-top: 30px;
 	text-align: center;
 }
 .learn i{
@@ -147,6 +147,13 @@ header{
 	margin: 0 auto;
 	background: url('../img/sprite.png') no-repeat -10px -50px;
 }
+.work span{
+	font-size: 16px;
+	color: #7E7E7E;
+}
+.work img{
+	vertical-align: middle;
+}
 .zuopin{
 	display: flex;
 	flex-direction: column;
@@ -162,7 +169,7 @@ header{
 	width: 400px;
 	height: 130px;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 30px;
 	text-align: center;
 }
 .self i{
@@ -183,18 +190,18 @@ header{
 	height: 1px;
 	border: 1px solid #D5D5D5;
 	margin: 0 auto;
-	margin-top: 57px;
+	margin-top: 30px;
 }
 /*谢谢欣赏*/
 .thank{
-	height: 120px;
+	height: 80px;
 	position: relative;
 }
 .thank i{
 	width: 180px;
 	height: 53px;
 	position: absolute;
-	right: 25px;
+	right: 60px;
 	bottom:0;
 	background: url('../img/sprite.png') no-repeat -14px -120px;
 }
