@@ -136,7 +136,7 @@ header{
 /*作品展示*/
 .work{
 	width: 684px;
-	height: 280px;
+	height: 210px;
 	margin: 0 auto;
 	margin-top: 50px;
 }
@@ -162,7 +162,7 @@ header{
 }
 .zuopin a{
 	flex:1;
-	margin-top:50px;
+	margin-top:30px;
 }
 /*自我介绍*/
 .self{
@@ -190,11 +190,11 @@ header{
 	height: 1px;
 	border: 1px solid #D5D5D5;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 /*谢谢欣赏*/
 .thank{
-	height: 80px;
+	height: 100px;
 	position: relative;
 }
 .thank i{
