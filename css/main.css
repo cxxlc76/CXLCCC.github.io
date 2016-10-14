@@ -1,0 +1,200 @@
+header{
+	height: 454px;
+	background: url('../img/top.png') no-repeat center center;
+}
+.container-full{
+	width: 950px;
+	margin: 0 auto;
+}
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+/*背景设置*/
+.main{
+	height: 1353px;
+	background: url('../img/bj1.png') no-repeat top center;
+	background-clip:border-box;
+	box-shadow: inset 0 0 900px 89px black;
+	position: relative;
+}
+.content{
+	height: 1333px;
+	background-color: #fff;
+	position: absolute;
+	top: -68px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+/*个人信息*/
+.info{
+	width: 220px;
+	height: 279px;
+	margin: 0 auto;
+	margin-top: -50px;
+	text-align: center;
+}
+.info img{
+	width: 220px;
+	border-radius: 50%;
+	overflow:hidden;
+}
+.info p{
+	line-height: 34px;
+	font-size: 27px;
+	font-family: "Yu Gothic Light"
+}
+.info span{
+	font-size: 20px;
+	color: #ccc;
+}
+/*毕业院校*/
+.graduation{
+	width: 450px;
+	height: 93px;
+	/*background: red;*/
+	margin: 0 auto;
+	margin-top:48px;
+	text-align: center;
+}
+.biye{
+	display: inline-block;
+	width: 92px;
+	height: 10px;
+	background: url('../img/sprite.png') no-repeat -4px -2px;
+}
+.graduation span{
+	font-size: 14px;
+	color: #9E9E9E;
+}
+.information{
+	display: inline-block;
+	width: 198px;
+	height: 12px;
+	background: url('../img/sprite.png') no-repeat -100px -1px;
+	margin-top: 18px;
+}
+.phone{
+	margin-top: 16px;
+	height: 20px;
+}
+.phone i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right:3px; 
+	vertical-align: middle;
+}
+.icon1{
+	background: url('../img/sprite.png') no-repeat -8px -21px;
+}
+.icon2{
+	background: url('../img/sprite.png') no-repeat -30px -23px;
+}
+.icon3{
+	background: url('../img/sprite.png') no-repeat -62px -20px;
+}
+.phone span {
+	padding: 0 5px;
+	color: #616161;
+}
+/*学习技能*/
+.learn{
+	width: 490px;
+	height: 192px;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
+}
+.learn i{
+	width: 130px;
+	height: 21px;
+	display: block;
+	margin: 0 auto;
+	background: url('../img/sprite.png') no-repeat -85px -23px;
+	
+}
+.learn ul{
+	margin-top: 38px;
+}
+.learn li{
+	width: 120px;
+	height: 134px;
+	float: left;
+}
+.learn img{
+	display:inline;
+	margin-bottom: 10px;
+}
+.learn span{
+	border-top: 1px solid #D0D0D0;
+	font-size: 15px;
+	color: #969696;
+	padding: 5px 10px;
+}
+/*作品展示*/
+.work{
+	width: 684px;
+	height: 280px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.work i{
+	width: 156px;
+	height: 27px;
+	display: block;
+	margin: 0 auto;
+	background: url('../img/sprite.png') no-repeat -10px -50px;
+}
+.zuopin{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+.zuopin a{
+	flex:1;
+	margin-top:50px;
+}
+/*自我介绍*/
+.self{
+	width: 400px;
+	height: 130px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+.self i{
+	width: 210px;
+	height: 27px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background: url('../img/sprite.png') no-repeat -11px -85px;
+}
+.self p{
+	color: #7E7E7E;
+	line-height: 25px;
+	font-size: 14px;
+}
+.null{
+	width: 500px;
+	height: 1px;
+	border: 1px solid #D5D5D5;
+	margin: 0 auto;
+	margin-top: 57px;
+}
+/*谢谢欣赏*/
+.thank{
+	height: 120px;
+	position: relative;
+}
+.thank i{
+	width: 180px;
+	height: 53px;
+	position: absolute;
+	right: 25px;
+	bottom:0;
+	background: url('../img/sprite.png') no-repeat -14px -120px;
+}
