@@ -139,7 +139,7 @@ header{
 /*作品展示*/
 .work{
 	width: 684px;
-	height: 210px;
+	height: 260px;
 	margin: 0 auto;
 	margin-top: 50px;
 }
@@ -151,21 +151,24 @@ header{
 	background: url('../img/sprite.png') no-repeat -10px -50px;
 }
 .work span{
+	display:block;
+	float: left;
 	font-size: 16px;
 	color: #7E7E7E;
 }
 .work img{
+	float: right;
+	display: block;
 	vertical-align: middle;
 }
 .zuopin{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	line-height: 60px;
 	margin-top: 20px;
 }
 .zuopin a{
-	flex:1;
-	margin-top:30px;
+	display: block;
+	width: 684px;
+	height: 60px;
 }
 /*自我介绍*/
 .self{
@@ -197,7 +200,7 @@ header{
 }
 /*谢谢欣赏*/
 .thank{
-	height: 100px;
+	height: 85px;
 	position: relative;
 }
 .thank i{
