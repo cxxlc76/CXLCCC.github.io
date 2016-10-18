@@ -65,6 +65,7 @@ header{
 	background: url('../img/sprite.png') no-repeat -4px -2px;
 }
 .graduation span{
+	cursor: pointer;
 	font-size: 14px;
 	color: #9E9E9E;
 }
